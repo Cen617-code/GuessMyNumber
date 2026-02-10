@@ -35,12 +35,12 @@
 * 支持 ANSI 转义序列的终端。
 
 ### 编译命令
-一、手动编译
+一、GCC手动编译
 ```bash
 g++ -std=c++11 main.cpp GameManager.cpp Leaderboard.cpp -o guessing_game
 
 ```
-二、clang
+二、Clang手动编译
 ```bash
 clang++ -std=c++11 main.cpp GameManager.cpp Leaderboard.cpp -o guessing_game
 

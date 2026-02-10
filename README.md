@@ -35,9 +35,19 @@
 * 支持 ANSI 转义序列的终端。
 
 ### 编译命令
-
+一、手动编译
 ```bash
 g++ -std=c++11 main.cpp GameManager.cpp Leaderboard.cpp -o guessing_game
+
+```
+二、clang
+```bash
+clang++ -std=c++11 main.cpp GameManager.cpp Leaderboard.cpp -o guessing_game
+
+```
+三、使用 Makefile
+```bash
+make
 
 ```
 

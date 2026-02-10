@@ -11,7 +11,7 @@ SRCS = $(wildcard *.cpp)
 OBJS = $(patsubst %.cpp, %.o, $(SRCS))
 
 # 3. 最终目标
-TARGET = my_game
+TARGET = guessing_game
 
 $(TARGET): $(OBJS)
 	$(CXX) $(CXXFLAGS) $(OBJS) -o $(TARGET)
